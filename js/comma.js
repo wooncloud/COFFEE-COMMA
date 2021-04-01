@@ -1,10 +1,12 @@
-var instances;
-
-document.addEventListener('DOMContentLoaded', function () {
-    var elems = document.querySelectorAll('.carousel');
-    var option = {
+$(document).ready(function(){
+    let option = {
         fullWidth: true,
         indicators: true
     }
-    instances = M.Carousel.init(elems, option);
-});
+    $('.carousel').carousel(option);
+    $('.sidenav').sidenav();
+
+    setInterval(function(){
+        $('.carousel').carousel('next');
+    }, 5000);
+  });
