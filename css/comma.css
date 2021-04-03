@@ -1,10 +1,43 @@
-header {}
+header {
+    background-color: #4e342e;
+    color: white;
+}
 
-nav {}
+nav {
+    background-color: #6d4c41;
+    color: white;
+}
 
 nav .tabs {
     display: flex;
     justify-content: space-around;
+}
+
+.logo-text {
+    font-weight: bold;
+    color: white;
+    margin-left: 10px;
+}
+
+.nav-item>a.nav-link {
+    color: white;
+    font-weight: 500;
+    word-break: keep-all;
+}
+
+header li.nav-item:hover {
+    background-color: #25131088;
+    border-radius: 4px;
+}
+
+nav li.nav-item {
+    margin: 0 5px;
+}
+
+nav li.nav-item:hover {
+    margin: 0 5px;
+    background-color: #4e342e;
+    border-radius: 4px;
 }
 
 section {
@@ -13,40 +46,68 @@ section {
 
 section>#promotion {
     width: 100%;
+    overflow-y: hidden;
 }
 
 section>#menu {
     width: 100%;
+    text-align: center;
+    padding: 50px 0 ;
+}
+section>#menu .tab-content{
+    border: 1px solid #d7ccc8;
+    border-radius: 6px;
+    background-color: rgba(0,0,0,.03);
+    height: 344px;
+}
+
+section>#menu .nav-pills .nav-link.active{
+    background-color: #6d4c41;
+}
+
+section>#menu .menu-head-img{
+    height: 100px;
+    overflow: hidden;
+    color: white;
+    font-weight: bold;
+    font-size: 38pt;
+    text-align: left;
+    padding: 10px 40px;
+    border-radius: 6px 6px 0 0;
+    /* background-image는 js로 처리할 예정 */
+    background-image: url('../images/ade.jpg');
 }
 
 section>#content {
-    margin: 10px auto;
+    margin: 30px auto;
 }
 
-section>#content>#contentWarp, section>#content>#sns {
+section>#content>div {
     padding: 10px 40px;
 }
 
-.carousel {
-    max-height: 500px;
-}
-
-#menu {
-    background-color: peachpuff;
-    text-align: center;
-    height: 400px;
-}
-
-.page-footer {
-    font-size: small;
-}
-
-.card .card-image .card-title{
+.card .card-title {
     font-weight: bold;
     color: black;
 }
-.card .card-image img {
+
+.card > img {
     width: inherit;
     margin: auto;
     padding: 20px 0;
+}
+
+footer {
+    margin-top: 50px;
+    padding: 10px 0;
+    background-color: #4e342e;
+    color: lightgray;
+}
+
+footer>.page-footer {
+    font-size: small;
+}
+
+footer>.page-footer .footer-info>div {
+    margin: 5px 0;
 }
