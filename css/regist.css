@@ -16,6 +16,7 @@
 .regist-container>.regist-form>form>div {
     padding: 10px 20px;
 }
+
 .regist-container>.regist-form>form>div>label {
     color: dimgray;
     font-size: small;

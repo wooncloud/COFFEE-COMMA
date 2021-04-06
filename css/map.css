@@ -23,10 +23,10 @@
     border-bottom: 1px solid lightgray;
     word-break: keep-all;
 }
+
 .map-container>.map-content>div>.content-addr>p {
     font-size: 11pt;
 }
-
 
 .map-container>.map-content>div>.map-div {
     border: 1px solid lightgray;

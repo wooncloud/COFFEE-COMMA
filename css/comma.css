@@ -53,20 +53,21 @@ section>#promotion {
 section>#menu {
     width: 100%;
     text-align: center;
-    padding: 50px 0 ;
+    padding: 50px 0;
 }
-section>#menu .tab-content{
+
+section>#menu .tab-content {
     border: 1px solid #d7ccc8;
     border-radius: 6px;
-    background-color: rgba(0,0,0,.03);
+    background-color: rgba(0, 0, 0, .03);
     height: 344px;
 }
 
-section>#menu .nav-pills .nav-link.active{
+section>#menu .nav-pills .nav-link.active {
     background-color: #6d4c41;
 }
 
-section>#menu .menu-head-img{
+section>#menu .menu-head-img {
     height: 100px;
     overflow: hidden;
     color: white;
@@ -92,7 +93,7 @@ section>#content>div {
     color: black;
 }
 
-.card > img {
+.card>img {
     width: inherit;
     margin: auto;
     padding: 20px 0;
@@ -114,7 +115,8 @@ footer>.page-footer .footer-info>div {
 }
 
 /* defind */
-label.light-label{
+
+label.light-label {
     font-size: small;
     color: dimgray;
 }
