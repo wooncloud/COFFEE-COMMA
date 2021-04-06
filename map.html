@@ -91,26 +91,26 @@
 </body>
 <script>
     // 수원 인계동
-    var mapOptions1 = {
+    var map1 = new naver.maps.Map('map1', {
         center: new naver.maps.LatLng(37.2651385, 127.0367512),
         zoom: 16
-    };
-    var marker = new naver.maps.Marker({
-        position: new naver.maps.LatLng(37.3595704, 127.105399),
-        map: mapOptions1
     });
-    var map1 = new naver.maps.Map('map1', mapOptions1);
+
+    var marker = new naver.maps.Marker({
+        position: new naver.maps.LatLng(37.2651385, 127.0367512),
+        map: map1
+    });
 
     // 가산동
-    var mapOptions2 = {
+    var map2 = new naver.maps.Map('map2', {
         center: new naver.maps.LatLng(37.4778311, 126.8791037),
         zoom: 16
-    };
-    var marker = new naver.maps.Marker({
-        position: new naver.maps.LatLng(37.3595704, 127.105399),
-        map: mapOptions2
     });
-    var map2 = new naver.maps.Map('map2', mapOptions2);
+
+    var marker = new naver.maps.Marker({
+        position: new naver.maps.LatLng(37.4778311, 126.8791037),
+        map: map2
+    });
 </script>
 
 </html>
