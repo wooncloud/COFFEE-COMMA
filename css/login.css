@@ -1,11 +1,11 @@
 .login-container {
-    margin-top: 50px;
-    min-height: calc(100vh - 328px);
+    padding-top: 50px;
 }
 
 .login-container>.login-header {
     text-align: center;
     margin: 20px 0;
+    color: #3a231e;
 }
 
 .login-container>.login-form {
@@ -20,5 +20,6 @@
 
 .login-btn-group {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 0 20px;
 }

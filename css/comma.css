@@ -42,6 +42,7 @@ nav li.nav-item:hover {
 
 section {
     width: 100%;
+    min-height: calc(100vh - 278px);
 }
 
 section>#promotion {
@@ -110,4 +111,10 @@ footer>.page-footer {
 
 footer>.page-footer .footer-info>div {
     margin: 5px 0;
+}
+
+/* defind */
+label.light-label{
+    font-size: small;
+    color: dimgray;
 }
