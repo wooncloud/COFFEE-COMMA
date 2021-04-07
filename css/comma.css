@@ -4,7 +4,9 @@ header {
 }
 
 nav {
-    background-color: #6d4c41;
+    /* background-color: #6d4c41; */
+    /* background: rgb(109,76,65); */
+    background: linear-gradient(270deg, #6d4c41 0%, #915f4f 100%);
     color: white;
 }
 
@@ -76,8 +78,38 @@ section>#menu .menu-head-img {
     text-align: left;
     padding: 10px 40px;
     border-radius: 6px 6px 0 0;
-    /* background-image는 js로 처리할 예정 */
-    background-image: url('../images/ade.jpg');
+}
+
+section>#menu .menu-head-img.img-coffee {
+    background-image: url('../images/menu_header/coffee.jpg');
+}
+
+section>#menu .menu-head-img.img-non-coffee {
+    background-image: url('../images/menu_header/latte.jpg');
+}
+
+section>#menu .menu-head-img.img-tea {
+    background-image: url('../images/menu_header/tea.jpg');
+}
+
+section>#menu .menu-head-img.img-ade {
+    background-image: url('../images/menu_header/ade.jpg');
+}
+
+section>#menu .menu-head-img.img-smoothie {
+    background-image: url('../images/menu_header/smoothie.jpg');
+}
+
+section>#menu .menu-head-img.img-shake {
+    background-image: url('../images/menu_header/shake.jpg');
+}
+
+section>#menu .menu-head-img.img-juice {
+    background-image: url('../images/menu_header/juice.jpg');
+}
+
+section>#menu .menu-head-img.img-bakery {
+    background-image: url('../images/menu_header/bread.jpg');
 }
 
 section>#content {
