@@ -112,6 +112,10 @@ section>#menu .menu-head-img.img-bakery {
     background-image: url('../images/menu_header/bread.jpg');
 }
 
+section>#menu .menu-contents {
+    padding: 10px 20px;
+}
+
 section>#content {
     margin: 30px auto;
 }
