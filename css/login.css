@@ -23,3 +23,6 @@
     justify-content: space-between;
     padding: 0 20px;
 }
+.login-btn-group > a.btn{
+    width: 130px;
+}
