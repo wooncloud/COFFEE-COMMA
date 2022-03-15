@@ -1,22 +1,15 @@
 # coffee comma (커피 콤마)
+퍼블리싱 연습용 커피콤마 웹사이트
 
 ## Web Page
-[Go To Web Page](https://wooncloud.github.io/coffee-comma/)
+[Go To Web Page](https://wooncloud.github.io/coffee-comma-html/)
 
-## 개요
-
-## 설계
-### [페이지 구성]
-- [index](https://wooncloud.github.io/coffee-comma/)
-- [login](https://wooncloud.github.io/coffee-comma/login.html)
-- [regist](https://wooncloud.github.io/coffee-comma/regist.html)
-- [map](https://wooncloud.github.io/coffee-comma/map.html)
-- [customer](https://wooncloud.github.io/coffee-comma/customer.html)
-### [화면 설계]
-
-## 자바스크립트 코드
-
-## 결과
+## 페이지 구성
+- [index](https://wooncloud.github.io/coffee-comma-html/)
+- [login](https://wooncloud.github.io/coffee-comma-html/login.html)
+- [regist](https://wooncloud.github.io/coffee-comma-html/regist.html)
+- [map](https://wooncloud.github.io/coffee-comma-html/map.html)
+- [customer](https://wooncloud.github.io/coffee-comma-html/customer.html)
 
 ## Used Open Source API
 - [naver map](https://www.ncloud.com/product/applicationService/maps)
